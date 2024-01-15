@@ -175,7 +175,7 @@ p{
 }
 
 /* Dertination Section Design */
-.destinationContainer{
+.mt-auto{
   margin-top: 100px;
 }
 .destinations{
@@ -287,4 +287,29 @@ p{
   .popularContainer .image{
     margin-top: 24px;
   }
+  /* Destination Responsive */
+  .mt-auto{
+    margin-top: 24px;
+  }
+  .destinations{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7, 286px) ;
+    gap: 24px;
+  }
+  .maldives{
+    grid-column: 1/2;
+  }
+  .indonesia{
+    grid-column: 1/2;
+  }
+  .north-america{
+    grid-column: 1/2;
+  }
+  .bangladesh{
+    grid-column: 1/2;
+  }
+  .bandarban{
+    grid-column: 1/2;
+  }
+  
 }
