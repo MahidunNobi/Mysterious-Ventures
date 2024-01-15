@@ -10,7 +10,7 @@ body {
   width: 82%;
   max-width: 1440px;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 20px;
 }
 img{
   max-width: 100%;
@@ -177,7 +177,7 @@ p{
 /* responsive Design */
 @media screen and (max-width: 600px) {
   .container {
-    width: 90%;
+    width: auto;
   }
   body{
     font-size: 14px;
