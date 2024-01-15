@@ -44,7 +44,48 @@ li{
 
 .nav-links{
     display: flex;
-    gap: 44px;
+    gap: 36px;
     height: 100%;
     align-items: center;
+}
+.nav-links li{
+    color: #424247;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.nav-links li:first-child{
+    color: #FF5400;
+}
+
+.menuBar{
+    width: 17px;
+    display: none;
+}
+
+/* responsive Design */
+@media screen and (max-width: 600px) {
+    .container{
+        width: 100%;
+    }
+    /* Navbar Responsive Design */
+    .nav{
+        padding: 20px 0;
+    }
+    .logo{ 
+        gap: 8px;
+    }
+    .logo img{
+        width: 28px;
+    }
+    .logo h2{
+        font-size: 22px;
+    }    
+    .nav-links{
+        display: none;
+    }
+    .menuBar{
+        display: block;
+    }
 }
