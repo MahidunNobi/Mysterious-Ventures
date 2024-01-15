@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+}
+
+.container{
+    width: 82%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+li{
+    list-style-type: none;
+}
+
+/* Navbar Design */
+.nav{
+    padding: 52px 0;
+}
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.logo img{
+    width: 48px;
+}
+.logo h2{
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+.logo span{
+    color: #FF5400;
+}
+
+.nav-links{
+    display: flex;
+    gap: 44px;
+    height: 100%;
+    align-items: center;
+}
