@@ -269,7 +269,6 @@ p{
 .newletterContainer{
   display: flex;
   gap: 24px;
-  margin-bottom: 100px;
 }
 .form{
   /* width: 40%; */
@@ -329,6 +328,31 @@ p{
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+}
+
+/* Footer Design */
+
+footer{
+  padding: 110px 0;
+  background: rgba(19, 19, 24, 0.05);
+}
+
+.footerContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footerContainer p{
+  margin: 30px 0;
+}
+.social-icons{
+  display: flex;
+  gap: 32px;
+}
+.footerContainer hr{
+  border-color: rgba(19, 19, 24, 0.1);
+  margin: 50px 0;
+  width: 100%;
 }
 
 /* responsive Design */
@@ -447,6 +471,23 @@ p{
   }
   .sticker h1{
     font-size: 28px;    
+  }
+  /* footer responsive design */
+  footer{
+    padding: 35px 0;
+  }
+  
+  .footerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footerContainer p{
+    margin: 16px 0;
+  }
+
+  .footerContainer hr{
+    margin: 24px 0;
   }
   
 }
