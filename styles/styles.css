@@ -354,6 +354,34 @@ footer{
   margin: 50px 0;
   width: 100%;
 }
+/* Tastimonial section design */
+
+.testimonials{
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.testimonial{
+  /* width: 31%; */
+  border-radius: 16px;
+  background: #e0e0e0;
+  padding: 40px 20px;
+  text-align: center;
+}
+.testimonial img{
+  border-radius: 50%;
+  border: 1px solid #FF5400;
+  height: 60px;
+  width: 60px;
+
+  object-fit: cover;
+}
+.testimonial .title{
+  margin: 16px 0;
+}
+.testimonial em{
+  color: rgb(94, 94, 94);
+}
 
 /* responsive Design */
 @media screen and (max-width: 600px) {
@@ -488,6 +516,30 @@ footer{
 
   .footerContainer hr{
     margin: 24px 0;
+  }
+  /* Testimonial Responsive */
+  .testimonials{
+    display: block;
+    /* justify-content: space-between;
+    gap: 24px; */
+  }
+  .testimonial{
+    /* width: 31%; */
+    margin: 10px 0;
+  }
+  .testimonial img{
+    border-radius: 50%;
+    border: 1px solid #FF5400;
+    height: 60px;
+    width: 60px;
+  
+    object-fit: cover;
+  }
+  .testimonial .title{
+    margin: 16px 0;
+  }
+  .testimonial em{
+    color: rgb(94, 94, 94);
   }
   
 }
