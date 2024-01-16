@@ -382,7 +382,51 @@ footer{
 .testimonial em{
   color: rgb(94, 94, 94);
 }
-
+/* Deals and discount section design */
+.dial{
+  background-image: url("../Images/01.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  display: flex;
+  justify-content: flex-end;
+  min-height: 500px;
+  align-items: center;
+  padding: 56px;
+  margin-bottom: 24px;
+}
+.dial.middle {
+  justify-content: flex-start;
+}
+.details{
+  padding: 50px;
+  border-radius: 8px;
+  border-radius: 16px;
+  border: 2px solid #FFF;
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(2.5px);
+  max-width: 580px;
+}
+.details p{
+  text-align: left;
+}
+.feature{
+  display: inline-flex;
+  margin-right: 24px;
+  gap: 8px;
+  align-items: center;
+  color: #5A5A5D;
+}
+.feature i{
+  color: #FF5400;
+}
+h3.price{
+  color: #FF5400;
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
 /* responsive Design */
 @media screen and (max-width: 600px) {
   .container {
@@ -520,26 +564,35 @@ footer{
   /* Testimonial Responsive */
   .testimonials{
     display: block;
-    /* justify-content: space-between;
-    gap: 24px; */
   }
   .testimonial{
-    /* width: 31%; */
     margin: 10px 0;
+  }  
+  /* Responsive Deals and Discount section */
+  .dial{    
+    flex-direction: column;
+    padding: 16px;
   }
-  .testimonial img{
-    border-radius: 50%;
-    border: 1px solid #FF5400;
-    height: 60px;
-    width: 60px;
-  
-    object-fit: cover;
+  .dial.middle {
+    justify-content: flex-end;
   }
-  .testimonial .title{
-    margin: 16px 0;
+  .details{
+    padding: 24px;    
   }
-  .testimonial em{
-    color: rgb(94, 94, 94);
+  .details p{
+    text-align: left;
+  } 
+  .feature{
+   flex-wrap: wrap;
+   margin: 5px 24px 0 0 ;
   }
-  
+  .feature i{
+    color: #FF5400;
+  }
+  h3.price{
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 24px;
+  }
 }
