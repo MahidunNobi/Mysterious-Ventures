@@ -236,7 +236,34 @@ p{
   background-image: linear-gradient(#13131833, #13131833), url("../Images/11.png");
   grid-column: 3/5;
 }
-
+/* Simple section design */
+.simpleContainer{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.simpleContainer div{
+  width: 48%;
+}
+.simpleContainer h1{
+  text-align: left;
+}
+.simpleContainer p{
+  text-align: left;
+}
+.simpleContainer .description ul li{
+  color: #131318;
+  font-weight: 700;
+  margin: 16px;
+}
+.simpleContainer .video{
+  border-radius: 16px;
+  overflow: hidden;
+}
+.simpleContainer button{
+  margin-top: 40px;
+}
 
 /* Choose Design */
 .heading-2{
@@ -489,6 +516,19 @@ h3.price{
   .popularContainer .image{
     margin-top: 24px;
   }
+  /* Simple responsive design */
+  .simpleContainer{
+    margin-top: 24px;
+    flex-direction: column;
+  }
+  .simpleContainer div{
+    width: auto;
+  }
+  .simpleContainer .video{
+  margin-top: 24px;
+  width: 100%;
+  }
+
   /* Destination Responsive */
   .mt-auto{
     margin-top: 24px;
